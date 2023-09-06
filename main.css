@@ -1,0 +1,129 @@
+* {
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+body > header {
+background-color:#2f3640; 
+padding: 16px 0;
+color:#f5f6fa;
+}
+header .container{
+display: flex;
+align-items: center;
+justify-content:space-between ;
+}
+header li{
+display: inline;
+}
+header li a {
+    color: #f5f6fa;
+}
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+.article{
+    display: flex;
+    justify-content:space-between ;
+}
+.article article img{
+    height: 180px;
+}
+.article article {
+    width: 333px;
+}
+section{
+
+    padding:16px 0 ;
+}
+section h2 {
+    margin-bottom: 16px;
+}
+.article article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+.article article a {
+    background-color: blue;
+    color: #fff;
+    padding:8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.article article a:hover {
+    text-decoration:underline; 
+}
+.article article p,
+.article article a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+.article article h3 {
+    font-size: 24px;
+}
+section h2 {
+    font-size: 32px;
+    color: #fff;
+}
+#entretenimento {
+    background-color:rgb(0,0,0);
+}
+#tecnologia {
+    background-color:rgb(173,216,230);
+}
+#tecnologia .article article a {
+    background-color: blue;
+}
+.container time{
+    background-color: #fff;
+}
+#entretenimento .article article a {
+    background-color: #2f3640;
+}
+#sports{
+    background-color:rgba(0,255,0, 0.1);
+}
+#sports .article article a {
+    background-color: rgba(0,255,0, 0.8);
+    color: black;
+}
+#sports .article article p{
+    color: black;
+}
+#economia .article article p{
+    color:black;
+}
+#economia {
+    background-color:#f8f59f;
+}
+#economia .article article a{
+    background-color:#ff9f1a ;
+    color: black;
+}
+#sports h2,
+#economia h2{
+    color: black;
+}
+#sports h3,
+#economia h3{
+    color: black;
+}
+#sports .article time,
+#economia .article time{
+    background-color: inherit;
+    color: black;
+}
+#entretenimento .article time{
+    background-color: inherit;
+    color: #fff;
+}
+#tecnologia .article time{
+    background-color: inherit;
+    color: #fff;
+}
+
+
